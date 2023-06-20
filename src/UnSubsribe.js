@@ -61,7 +61,8 @@ const UnSubsribe = () => {
         "https://100085.pythonanywhere.com/api/v1/subscribe-newsletter/e4f8bbdf-d998-4b3a-bc21-e99ab8267c86/";
       const data = {
         topic: "Internal updates weekly",
-        subscriberEmail: formData.email
+        subscriberEmail: formData.email,
+        typeOfSubscriber: "internal team"
       };
       axios
         .put(url, data)
