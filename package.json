@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "home": "https:/LL05-AI-Dowell.github.io/dowellnewsletter",
+  "home": "https://LL05-AI-Dowell.github.io/dowellnewsletter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,8 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^5.0.0"
   }
 }
-
-
